@@ -1,0 +1,36 @@
+body {
+	background-image: url(bg_images/img.jpg);
+}
+
+ #background {
+ 	 background: url(bg_images/voting.jpg);
+ 	 background-size: cover;
+ 	 height: 340px;
+ 	 background-position: center;
+ }
+ 
+ #register {
+ 	background: url(bg_images/votee.jpg);
+ 	 background-size: cover;
+ 	 height: 340px;
+ 	 width: auto;
+ 	 background-position: center bottom;
+ }
+
+ #choose {
+ 	 background: url(bg_images/choose.jpg);
+ 	 background-size: cover;
+ 	 height: 340px;
+ 	 width: auto;
+ 	 background-position: top center;
+ }
+
+ #voting-header {
+ 	 color: white;
+ }
+
+ .top-left {
+    position: absolute;
+    top: 140px;
+    left: 240px;
+}
