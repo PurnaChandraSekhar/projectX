@@ -6,8 +6,8 @@
  	      	 <div class="jumbotron">
  	      	 	  <h1><i class="fa fa-user-circle" aria-hidden="true"></i> Welcome back Admin!</h1>
  	      	 </div>
-                        <?php
-                             if (isset($_GET['login']))
+                        <?php //php comment starts
+                             if (isset($_GET['login'])) 
                               {
                                  if ($_GET['login']== 'error')
                                   {
@@ -25,13 +25,13 @@
                                     echo "<div class=\"alert alert-info text-center\">You Have Successfully Logged Out!</div>";
                                    }
                                }
-                        ?>
+                        ?> 
 
-                 <form class="form-group" action="includes/admin-login.php" method="POST">
+                 <form class="form-group" action="includes/admin-login.php" method="POST"> 
                 	  <div>
                 	  	 <label for="Auser"><i class="fa fa-user-circle" aria-hidden="true"></i> Administrator:</label>
                 	  	 <input type="text" class="form-control" id="Auser" name="admin" placeholder="Admin_Username">
-                	  </div> <br>
+                	  </div> <br> 
                 	  <div>
                 	  	 <label for="Apass"><i class="fa fa-key" aria-hidden="true"></i> Password:</label>
                 	  	 <input type="Password" id="Apass" class="form-control" name="pwd" placeholder="Password">
