@@ -12,7 +12,7 @@
    <script type="text/javascript" src="./js/jquery-3.2.1.min.js"></script>
    <script type="text/javascript" src="./js/script.js"></script>
    <link rel="stylesheet" href="index-style.css">
-
+ 
 </head>
 <style>
    .vote-hr {
@@ -26,7 +26,6 @@
 <body>
        <div class="container">
          <nav class="navbar navbar-inverse">
-
          <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
@@ -213,8 +212,7 @@
                                              {
                                              ?>
                                                 <option value="<?php echo $result['c_id']; ?>"><?php echo $result['c_name']; ?></option>
-                                             <?php
-                                             
+                                             <?php                                            
                                             }
                                        ?>
                                   </select>
@@ -242,8 +240,7 @@
                                              {
                                              ?>
                                                 <option value="<?php echo $result['c_id']; ?>"><?php echo $result['c_name']; ?></option>
-                                             <?php
-                                             
+                                             <?php                                            
                                             }
                                        ?>
                                   </select>
@@ -272,8 +269,7 @@
                                              {
                                              ?>
                                                 <option value="<?php echo $result['c_id']; ?>"><?php echo $result['c_name']; ?></option>
-                                             <?php
-                                             
+                                             <?php                                             
                                             }
                                        ?>
                                   </select>
@@ -290,7 +286,6 @@
                                          <!-- <li><a href="#" target="_blank" style="text-decoration: none; list-style-type:none;"></a></li> -->
                                          <!-- <li><a href="#" target="_blank" style="text-decoration: none; list-style-type:none;"></a></li> -->
                                       </ul>
-
                                   </div>
                                </div>
                                <div class="col-lg-6"  style="height: 200px">
@@ -304,8 +299,7 @@
                                              {
                                              ?>
                                                 <option value="<?php echo $result['c_id']; ?>"><?php echo $result['c_name']; ?></option>
-                                             <?php
-                                             
+                                             <?php                                             
                                             }
                                        ?>
                                   </select>
@@ -322,7 +316,6 @@
                                          <li><a href="candidates-info/gautham.php" target="_blank" style="text-decoration: none; list-style-type:none;">Gautham</a></li>
                                          <!-- <li><a href="#" target="_blank" style="text-decoration: none; list-style-type:none;"></a></li> -->
                                       </ul>
-
                                   </div>
                                </div>
                                <div class="col-lg-6"  style="height: 200px">
@@ -336,8 +329,7 @@
                                              {
                                              ?>
                                                 <option value="<?php echo $result['c_id']; ?>"><?php echo $result['c_name']; ?></option>
-                                             <?php
-                                             
+                                             <?php                                             
                                             }
                                        ?>
                                   </select>
@@ -354,7 +346,6 @@
                                          <!-- <li><a href="#" target="_blank" style="text-decoration: none; list-style-type:none;"></a></li>
                                          <li><a href="#" target="_blank" style="text-decoration: none; list-style-type:none;"></a></li> -->
                                       </ul>
-
                                   </div>
                                </div>
                                <div class="col-lg-6"  style="height: 200px">
@@ -369,7 +360,6 @@
                                              ?>
                                                 <option value="<?php echo $result['c_id']; ?>"><?php echo $result['c_name']; ?></option>
                                              <?php
-                                             
                                             }
                                        ?>
                                   </select>
