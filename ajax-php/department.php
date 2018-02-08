@@ -1,7 +1,7 @@
 <?php 
-         include_once('../includes/db.php');
+         include_once('../includes/db.php'); //selects Department from the College!!
 
-         $sql = "SELECT DISTINCT c_department FROM candidate";
+         $sql = "SELECT DISTINCT c_department FROM candidate"; 
          $result = mysqli_query($conn, $sql);
 
          while ($row=mysqli_fetch_assoc($result))

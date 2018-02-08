@@ -79,9 +79,6 @@
       height: 620px !important;
    }
    #table th {
-    /*padding-top: 12px;
-    padding-bottom: 12px;*/
-    /*text-align: left;*/
     background-color: #4CAF50;
     color: black;
    }
@@ -113,15 +110,12 @@
                      <th class="text-center"><b>Total Number Of Votes</b></th>
                    </tr>
                </thead>
-
                <?php
                               require_once "includes/db.php";
-
                              $sql = "SELECT COUNT(user_id) AS Total_Votes,c.c_name,p.p_name
                                     FROM votes v JOIN candidate c ON v.c_id=c.c_id JOIN post p ON p.p_id=c.p_id   
                                     GROUP BY v.c_id order by p.p_id";
                              $result = mysqli_query($conn, $sql);
-
                           while ($row = mysqli_fetch_assoc($result))
                           {
                              ?>
@@ -137,7 +131,6 @@
                                </td>
                              </tr>
                              <?php
-
                           }                             
                ?>  
           </table>   
@@ -151,6 +144,5 @@
   integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
   crossorigin="anonymous"></script>
  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-
 </body>
 </html>

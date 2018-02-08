@@ -1,6 +1,6 @@
 
   <?php
-             include_once "header.php";
+             include_once "header.php"; //includes header
   ?>
  	      <div class="container">
  	      	 <div class="jumbotron">
@@ -11,22 +11,21 @@
                               {
                                  if ($_GET['login']== 'error')
                                   {
-                                echo "<h2 class='alert alert-danger text-center'>Enter valid details</h2>";
-                                 }
-                             }
+                                    echo "<h2 class='alert alert-danger text-center'>Enter valid details</h2>";
+                                  }
+                              }
                                if (isset($_GET['msg']))
                                 {
-                                  if ($_GET['msg']== 'false')
+                                   if ($_GET['msg']== 'false')
                                   {
-                                   echo "<div class=\"alert alert-danger text-center \">You Must Be Logged in To View That Page!</div>";
-                                 }
-                                 elseif ($_GET['msg']=='logout')
+                                    echo "<div class=\"alert alert-danger text-center \">You Must Be Logged in To View That Page!</div>";
+                                  }
+                                   elseif ($_GET['msg']=='logout')
                                   {
                                     echo "<div class=\"alert alert-info text-center\">You Have Successfully Logged Out!</div>";
-                                   }
-                               }
+                                  }
+                                }
                         ?> 
-
                  <form class="form-group" action="includes/admin-login.php" method="POST"> 
                 	  <div>
                 	  	 <label for="Auser"><i class="fa fa-user-circle" aria-hidden="true"></i> Administrator:</label>

@@ -13,7 +13,7 @@
    <script type="text/javascript" src="./js/script.js"></script>
    <script type="text/javascript" src="bootstrap.min.js"></script>
    <script type="text/javascript" src="js/modify_candidate.js"></script>
-   <script>
+   <script> //jQuery code!
        $(document).ready(function() {
           $('#add').click(function() {
               $('select[name="postname"]').load('ajax-php/ajax.php');
@@ -126,9 +126,9 @@
                       {
                         if ($_GET['msg']=='reg')
                          {
-                          echo "registered already!";
-                        }
-                     }
+                          echo "registered already!"; //Registration message!
+                         }
+                      }
          ?>
                         <h1> Data Table </h1>
                         <a href="inside-admin.php" class="btn btn-info btn-sm">Back</a> 
@@ -146,7 +146,7 @@
                           </thead>                        
        
 
-       <!-- Trigger the modal with a button -->
+<!-- Trigger the modal with a button -->
 <!-- <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Open Modal</button>
  -->
 <!-- Modal -->
@@ -197,12 +197,12 @@
             <td><input type="text" disabled name="cname" class="editt" value="<?php echo $resultcheck['c_name'] ?>"></td>
             <td><input type="text" disabled name="cdep" class="cdep" value="<?php echo $resultcheck['c_department'] ?>"></td>
             <td><input type="text" disabled name="pname" class="pname" value="<?php echo $resultcheck['p_name'] ?>"></td>
-            <td>
+                  <td>
                       <button class='btn btn-warning btn-edit'>Edit</button>
                       <button class='btn btn-warning btn-update'>Update</button>
                       <a onclick="return confirm('Are You Sure?')" href="candidate-data.php?idd=<?php echo $resultcheck['c_id']; ?>" class='btn btn-danger'>Delete</a>
                   </td>
-         </tr> 
+          </tr> 
    <?php        
       }
        if (isset($_GET['idd']))
@@ -218,8 +218,9 @@
                window.location.href='candidate-data.php';
             </script>
             <?php
-          }
-          else{
+           }
+          else
+          {
             ?>
                <script type="text/javascript">
                alert("Failed To Dlete!");
