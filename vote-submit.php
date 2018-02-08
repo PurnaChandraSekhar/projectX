@@ -20,7 +20,7 @@
               exit();
             }
 
-             $sql = "INSERT INTO votes VALUES ('$user_id','$president'),('$user_id','$vicepresident'),('$user_id','$Treasurer'),('$user_id','$prd'),('$user_id','$g_sec'),('$user_id','$j_sec'),('$user_id','$c_sec'),('$user_id','$s_sec'),('$user_id','$editor')";
+            $sql = "INSERT INTO votes VALUES ('$user_id','$president'),('$user_id','$vicepresident'),('$user_id','$Treasurer'),('$user_id','$prd'),('$user_id','$g_sec'),('$user_id','$j_sec'),('$user_id','$c_sec'),('$user_id','$s_sec'),('$user_id','$editor')";
 
              if (mysqli_query($conn, $sql)) 
              {

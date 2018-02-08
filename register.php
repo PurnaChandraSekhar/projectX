@@ -1,14 +1,13 @@
  <?php
             include_once "includes/token_session.php";
              include_once "header.php";
-  ?> 
-
-   
+  ?>  
 	  <div class="container well">
 	  	     <div class="row">
 	  	     	 <div class="col-lg-12 col-md-10 col-sm-8 col-xs-12">
 	  	     	  <div class="jumbotron text-center" id="register">
-	  	    	     <h2 id="details"><i class="fa fa-graduation-cap" aria-hidden="true"></i> Fill The Below Details <br>To <br><strong>Register!</strong></h2>                       
+	  	    	     <h2 id="details"><i class="fa fa-graduation-cap" aria-hidden="true"></i> Fill The Below Details <br>To <br><strong>Register!</strong>
+	  	    	     </h2>                       
 	  	          </div>
           <?php
                   if (isset($_GET['msg']))
@@ -16,32 +15,30 @@
                   	  if ($_GET['msg'] == 'rpattern')
                   	   {
                   	  	  echo "<div class='alert alert-danger'>Enter correct Roll number format <small>Example: IT-14-99</small></div>";
-                  	  	                    	  }
+                  	   }
                   	  elseif ($_GET['msg']== 'Roll')
                   	   {
                   	  	  echo "<div class='alert alert-danger'>Roll number already Registered</div>";
   	  	  
-                  	  }
+                  	   }
                   	    elseif ($_GET['msg']== 'phn')
                   	   {
                   	  	  echo "<div class='alert alert-danger'>Phone number must contain 10 digits!</div>";
                   	  	  
-                  	  }
+                  	   }
                   	  elseif ($_GET['msg'] == 'user')
                   	   {
                   	  	  echo "<div class='alert alert-danger'>Username Already registered!</div>";
-                  	  }
+                  	   }
                   	   elseif ($_GET['msg'] == 'empty')
                   	   {
                   	  	  echo "<div class='alert alert-danger'>Field Should Not Be Empty!</div>";
-                  	  }
+                  	   }
                   	 
-                  }
-          ?>
-
-	  	         
-	  <form action ="includes/reg.php" method="POST" name="myform" >
-	  	 	  <div class="form-group">
+                   }
+          ?>         
+	  <form action ="includes/reg.php" method="POST" name="myform" > //Form Starting
+	  	 	  <div class="form-group"> //Bootstrap Form Group class starting!
 	  	 	  	 <div>
 	  	 	  	 	<label><i class="fa fa-user" aria-hidden="true"></i> First Name:</label>
 	  	 	  	    <input type="text" id="f_name" name="firstname" class="form-control" placeholder="firstname" >
@@ -81,11 +78,12 @@
 	  	 	  	 	 <input type="password" class="form-control"  name="password" placeholder="Password" >
 	  	 	  	 </div> <br> 	  	 	  	  
 	  	 	  	  <div>
-	  	 	  	  <button class="btn btn-md btn-success" type="submit" name="submit"><i class="fa fa-sign-in" aria-hidden="true"></i> SUBMIT</button>	  	 	  	  	 	 	  	
+	  	 	  	  <button class="btn btn-md btn-success" type="submit" name="submit"><i class="fa fa-sign-in" aria-hidden="true"></i> SUBMIT</button>	  	  	 	 	  	
 	  	 	      </div>
-	  </form>    
-	  	     	 </div>
+	  </form> //Form Ending!   
+	  	     	 </div>//Bootstrap form group class ending!!
 	  	     </div>
+	  	 </div>
 	  </div>
  <?php
              include_once "footer.php";

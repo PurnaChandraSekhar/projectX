@@ -118,7 +118,7 @@
                                   <th class="text-center" colspan="3">Action</th>
                               </tr>
                            </thead>
-                    </div>
+          </div>
   
    <?php
            include_once("includes/db.php");
@@ -172,11 +172,9 @@
                 <?php
               }
            }
-   ?>
-   
+   ?> 
                         </table>
            </div>
         </div>
-
 </body>
 </html>

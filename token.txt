@@ -1,4 +1,4 @@
- insert into token values('', 'ncvksfss'),
+ insert into token values('', 'ncvksfss'), //this random tokens give access to enter into the registration page to avoid multiple registrations!! they expire automatically as soon as they are validated!! so chill, only one token for one person!! 
  ('', 'sfdgdsgg'),
  ('', 'jiuhnjmk'),
  ('', 'eyryrgda'),
@@ -58,6 +58,6 @@
  ('', 'gwhgbwoo'),
  ('', 'urwirwrr'),
  ('', 'grwirwrr'),
- ('', 'krwidwrr'),//lol//
+ ('', 'krwidwrr'),//lol
 
 
