@@ -1,4 +1,4 @@
- <?php 
+ <?php //Modification of candiates!!
 
   require_once "includes/db.php";
 
@@ -10,12 +10,11 @@
 
    if (mysqli_query($conn, $sql))
     {
-      
       echo "success";
       exit();
-   }
+    }
    else
-   {
+     {
    	  echo mysqli_error($conn);
    	  exit();
-   }
+     }

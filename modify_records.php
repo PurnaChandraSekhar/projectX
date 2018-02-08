@@ -19,22 +19,18 @@
           {
             echo mysqli_error($conn);
             exit();
-         }
-          
-		 //  $result = mysqli_query( $conn,$sql);
-		 // if ($result)
-		 //  {
-		 // 	echo "success";
-		 //  }
-		 // else
-		 // {
-		 // 	 echo  mysqli_error($conn);
-			//  exit();
-		 // }
-	    
-
-			
-
+         }    
+		//   $result = mysqli_query( $conn,$sql);
+		//  if ($result)
+		//   {
+		//  	echo "success";
+		//   }
+		//  else
+		//  {
+		//  	 echo  mysqli_error($conn);
+		// 	 exit();
+		//  }
+		 
 		// if(isset($_POST['delete_row']))
 		// {
 		//  $row_no=$_POST['row_id'];

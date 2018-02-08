@@ -1,5 +1,5 @@
   <?php
-        include_once "includes/admin_session.php";
+        include_once "includes/admin_session.php"; //admin session
   ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -84,7 +84,7 @@
    }
 </style>
 <body>
-          <div class="row">
+          <div class="row"> // div starts
              <div class="col-lg-12 col-sm-8 col-xs-4">
                 <nav id="navbar">
          <header>
@@ -102,18 +102,19 @@
          <ul class="navbar-right" id="result">
             <li><a href="generating.php">Results</a></li>
             <li><a href="includes/logout_admin.php?msg=logout"><b>LogOut</b></a></li>
-         </ul>
-         
+         </ul>  
       </nav>
              </div>
-          </div>
+          </div> //1st div ends
  
 <script
-  src="https://code.jquery.com/jquery-3.2.1.js"
-  integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
-  crossorigin="anonymous"></script>
- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-
-</body>
-</html>
+      src="https://code.jquery.com/jquery-3.2.1.js"
+      integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+      crossorigin="anonymous">
+</script>
+<script 
+       src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous">  
+</script>
+</body> //Body Ending
+</html>//HTML ends
  
