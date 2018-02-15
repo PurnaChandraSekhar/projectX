@@ -37,8 +37,8 @@
                   	 
                    }
           ?>         
-	  <form action ="includes/reg.php" method="POST" name="myform" > //Form Starting
-	  	 	  <div class="form-group"> //Bootstrap Form Group class starting!
+	  <form action ="includes/reg.php" method="POST" name="myform" > 
+	  	 	  <div class="form-group"> <!-- //Bootstrap Form Group class starting! -->
 	  	 	  	 <div>
 	  	 	  	 	<label><i class="fa fa-user" aria-hidden="true"></i> First Name:</label>
 	  	 	  	    <input type="text" id="f_name" name="firstname" class="form-control" placeholder="firstname" >
@@ -80,8 +80,8 @@
 	  	 	  	  <div>
 	  	 	  	  <button class="btn btn-md btn-success" type="submit" name="submit"><i class="fa fa-sign-in" aria-hidden="true"></i> SUBMIT</button>	  	  	 	 	  	
 	  	 	      </div>
-	  </form> //Form Ending!   
-	  	     	 </div>//Bootstrap form group class ending!!
+	  </form>  
+	  	     	 </div><!-- //Bootstrap form group class ending!! -->
 	  	     </div>
 	  	 </div>
 	  </div>

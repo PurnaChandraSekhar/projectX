@@ -16,9 +16,9 @@
    }
 </style>
 <body>
-    <div class="col-sm-12 col-md-10 col-lg-12"> //grid div starts	   
-	<div class="conatiner"> //container div	     	 
-	     <div class="row"> //Row div
+    <div class="col-sm-12 col-md-10 col-lg-12"> <!-- //grid div starts -->	   
+	<div class="conatiner"> <!-- //container div	 -->     	 
+	     <div class="row"> <!-- //Row div -->
 					<nav class="navbar navbar-inverse">
 
 				         <div class="container-fluid">

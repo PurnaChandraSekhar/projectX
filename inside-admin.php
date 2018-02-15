@@ -84,7 +84,7 @@
    }
 </style>
 <body>
-          <div class="row"> // div starts
+          <div class="row"> <!-- div starts-->
              <div class="col-lg-12 col-sm-8 col-xs-4">
                 <nav id="navbar">
          <header>
@@ -105,7 +105,7 @@
          </ul>  
       </nav>
              </div>
-          </div> //1st div ends
+          </div> <!-- //1st div ends -->
  
 <script
       src="https://code.jquery.com/jquery-3.2.1.js"
@@ -115,6 +115,6 @@
 <script 
        src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous">  
 </script>
-</body> //Body Ending
-</html>//HTML ends
+</body> <!-- //Body Ending -->
+</html><!-- //HTML ends -->
  
